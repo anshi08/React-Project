@@ -20,3 +20,26 @@ const CounterThree = () => {
 }
 
 export default CounterThree
+
+//Example of Spread Operator
+
+//Merging of Array
+// let arr = [1,2,3]
+
+// let arr1 = [4,5,6]
+
+// let newArr = [...arr , ...arr1]
+
+// console.log(newArr)
+
+//Merging of Object
+// let obj1 = {"name":"Anshi","age":"35"}
+// undefined
+// let modify = {...obj1}
+// undefined
+// modify
+// {name: 'Anshi', age: '35'}
+// let modify = {...obj1,"age":21}
+// undefined
+// modify
+// {name: 'Anshi', age: 21}
