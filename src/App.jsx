@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CounterThree from './CounterThree'
 
 function App() {
   // Js
@@ -12,33 +13,39 @@ function App() {
 
   //useState
   
-  let initialValue = 0;
-  let [counter,setCounter] = useState(initialValue)
+//   let initialValue = 0;
+//   let [counter,setCounter] = useState(initialValue)
 
-  const increaseValue = () =>{
-     setCounter(counter=>counter+1)
-  }
+//   const increaseValue = () =>{
+//      setCounter(counter=>counter+1)
+//   }
 
-  const decreaseValue = () =>{
-    setCounter(counter=>counter-1)
- }
+//   const decreaseValue = () =>{
+//     setCounter(counter=>counter-1)
+//  }
 
- const resetValue = () => {
-    setCounter(initialValue)
- }
+//  const resetValue = () => {
+//     setCounter(initialValue)
+//  }
 
- //UseState With Previou State
- const incrementFive = () =>{
-      setCounter(prevCount => prevCount + 5)
- }
+//  //UseState With Previou State
+//  const incrementFive = () =>{
+//       setCounter(prevCount => prevCount + 5)
+//       // setCounter((prevState) => {
+//       //   if(prevState < 4){
+//       //     console.log("Prev",prevState + 5)
+//       //   }
+//       // })
+//  }
 
   return (
     <>
-      <h2>Counter {counter} </h2>
+      {/* <h2>Counter {counter} </h2>
       <button onClick={resetValue}>Reset Value</button><br/><br/>
       <button onClick={increaseValue}>Increment</button><br/><br/>
       <button onClick={decreaseValue}>Decrement</button><br/><br/>
-      <button onClick={incrementFive}>Increment by 5</button>
+      <button onClick={incrementFive}>Increment by 5</button> */}
+      <CounterThree />
     </>
   )
 }
