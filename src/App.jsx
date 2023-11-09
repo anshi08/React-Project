@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import CounterThree from './CounterThree'
+// import { useState } from 'react'
+// import CounterThree from './CounterThree'
+import UseStateWithArray from './UseStateWithArray'
 
 function App() {
   // Js
@@ -45,7 +46,8 @@ function App() {
       <button onClick={increaseValue}>Increment</button><br/><br/>
       <button onClick={decreaseValue}>Decrement</button><br/><br/>
       <button onClick={incrementFive}>Increment by 5</button> */}
-      <CounterThree />
+      {/* <CounterThree /> */}
+      <UseStateWithArray />
     </>
   )
 }
