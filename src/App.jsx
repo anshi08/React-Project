@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 // import CounterThree from './CounterThree'
+import HookUseEffect from './HookUseEffect'
 import UseStateWithArray from './UseStateWithArray'
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
       <button onClick={decreaseValue}>Decrement</button><br/><br/>
       <button onClick={incrementFive}>Increment by 5</button> */}
       {/* <CounterThree /> */}
-      <UseStateWithArray />
+      {/* <UseStateWithArray /> */}
+      <HookUseEffect />
     </>
   )
 }
