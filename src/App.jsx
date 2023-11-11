@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 // import CounterThree from './CounterThree'
+import HookMouse from './HookMouse'
 import HookUseEffect from './HookUseEffect'
+import UseEffectWithCleanCode from './UseEffectWithCleanCode'
 import UseStateWithArray from './UseStateWithArray'
 
 function App() {
@@ -49,7 +51,9 @@ function App() {
       <button onClick={incrementFive}>Increment by 5</button> */}
       {/* <CounterThree /> */}
       {/* <UseStateWithArray /> */}
-      <HookUseEffect />
+      {/* <HookUseEffect /> */}
+      {/* <HookMouse /> */}
+      <UseEffectWithCleanCode />
     </>
   )
 }
