@@ -1,9 +1,11 @@
 // import { useState } from 'react'
 // import CounterThree from './CounterThree'
-import HookMouse from './HookMouse'
-import HookUseEffect from './HookUseEffect'
-import UseEffectWithCleanCode from './UseEffectWithCleanCode'
-import UseStateWithArray from './UseStateWithArray'
+// import HookMouse from './HookMouse'
+// import HookUseEffect from './HookUseEffect'
+// import UseEffectWithCleanCode from './UseEffectWithCleanCode'
+// import UseStateWithArray from './UseStateWithArray'
+
+import IntervalHookCounter from "./IntervalHookCounter"
 
 function App() {
   // Js
@@ -53,7 +55,8 @@ function App() {
       {/* <UseStateWithArray /> */}
       {/* <HookUseEffect /> */}
       {/* <HookMouse /> */}
-      <UseEffectWithCleanCode />
+      {/* <UseEffectWithCleanCode /> */}
+      <IntervalHookCounter />
     </>
   )
 }
