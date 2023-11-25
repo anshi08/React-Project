@@ -5,7 +5,9 @@
 // import UseEffectWithCleanCode from './UseEffectWithCleanCode'
 // import UseStateWithArray from './UseStateWithArray'
 
+
 import IntervalHookCounter from "./IntervalHookCounter"
+import DataFetching from "./dataFetching"
 
 function App() {
   // Js
@@ -56,7 +58,8 @@ function App() {
       {/* <HookUseEffect /> */}
       {/* <HookMouse /> */}
       {/* <UseEffectWithCleanCode /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </>
   )
 }
