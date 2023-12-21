@@ -11,7 +11,7 @@ const DataFetching = () => {
       axios
         .get('https://jsonplaceholder.typicode.com/todos')
         .then(res => {
-          // console.log(res)
+          console.log(res)
           setPosts(res.data) 
         })
         .catch(err => {
